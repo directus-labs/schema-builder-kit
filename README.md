@@ -1,4 +1,4 @@
-# Directus Data Model
+# Directus Schema Builder Kit
 
 This repository is a proof of concept for creating data models for directus programmatically instead of with the admin UI.
 
@@ -15,7 +15,7 @@ This repository is a proof of concept for creating data models for directus prog
 ## Example
 
 ```javascript
-import { build } from "directus-data-model"
+import { build } from "@directus/schema-builder-kit"
 
 const model = build((builder) => {
   const products = builder
