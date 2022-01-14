@@ -1,0 +1,41 @@
+{
+  "name": "@directus/schema-builder-kit",
+  "version": "0.1.0",
+  "description": "Create the data model for directus programmatically",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "prebuild": "npm run cleanup",
+    "build": "tsc --build",
+    "cleanup": "rimraf dist",
+    "test": "jest --verbose --rootDir=tests"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.7",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "author": {
+    "name": "Alejandro Castaño González",
+    "email": "alejandro@theseedsquad.com",
+    "url": "https://theseedsquad.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/directus-community/schema-builder-kit.git"
+  },
+  "homepage": "https://github.com/directus-community/schema-builder-kit#readme",
+  "license": "MIT",
+  "keywords": [
+    "directus"
+  ]
+}

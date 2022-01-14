@@ -1,0 +1,19 @@
+{
+  "name": "directus-data-model-templates",
+  "version": "0.1.0",
+  "description": "Templates of directus-data-model",
+  "private": true,
+  "scripts": {
+    "blog": "node ./blog.js"
+  },
+  "author": {
+    "name": "Alejandro Castaño González",
+    "email": "alejandro@theseedsquad.com",
+    "url": "https://theseedsquad.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "directus-data-model": "../dist",
+    "dotenv": "^10.0.0"
+  }
+}
