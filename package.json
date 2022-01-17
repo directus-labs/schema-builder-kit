@@ -1,5 +1,5 @@
 {
-  "name": "@directus/schema-builder-kit",
+  "name": "directus-schema-builder-kit",
   "version": "0.1.0",
   "description": "Create the data model for directus programmatically",
   "main": "dist/index.js",
