@@ -1,3 +1,5 @@
+![Community-maintained. This project is not maintained by the Directus Core Team, but by our wider community. Interested in taking it on? Get in touch!](.github/community-maintained.svg)
+
 # Directus Schema Builder Kit
 
 This repository is a proof of concept for creating data models for directus programmatically instead of with the admin UI.
